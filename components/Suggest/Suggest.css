@@ -1,0 +1,21 @@
+.titleProfile {
+  position: relative;
+  width: 100%;
+  color: #515365;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.09rem;
+}
+.titleProfile::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fa6342;
+  width: 3px;
+  height: 15px;
+}
+.border-bottom {
+  border-bottom: 1px solid #e6ecf5;
+}

@@ -1,0 +1,20 @@
+.navbar {
+  width: 100%;
+  background-color: white;
+  height: 66px;
+  padding: 0 16px;
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 20%);
+  z-index: 99999;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.inputSearch {
+  background-color: #edf2f6;
+  padding: 13px 30px;
+  border-radius: 50px;
+  color: #535165;
+  border: none;
+  outline: none;
+}

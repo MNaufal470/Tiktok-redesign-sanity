@@ -1,0 +1,15 @@
+.middleAbsolute {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.bottomAbsolute {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+}
+.border-top {
+  border-top: 1.5px solid #e6ecf5;
+}
